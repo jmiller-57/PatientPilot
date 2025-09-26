@@ -1,31 +1,33 @@
-import { StyleSheet } from 'react-native';
+import React from 'react';
+import { FlatList, Pressable, Text, StyleSheet } from 'react-native';
+import { Link } from 'expo-router';
+import { useTips } from '../hooks/useTips';
 
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
-
-export default function TabOneScreen() {
+export default function HomeScreen() {
+  const { stages, byStage } = useTips();
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
-    </View>
+    <FlatList
+      contentContainerStyle={styles.list}
+      data={stages}
+      keyExtractor={s => s}
+      renderItem={({ item: stage }) => {
+        const count = byStage[stage].length
+        return (
+          <Link href={{ pathname: '/stages/[stage]', params: { stage } }} asChild>
+            <Pressable style={styles.card} accessibilityRole='button'>
+              <Text style={styles.title}>{stage.toUpperCase()}</Text>
+              <Text style={styles.count}>{count} tips</Text>
+            </Pressable>
+          </Link>
+        );
+      }}
+    />
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
+  list: { padding: 16 },
+  card: { padding: 20, backgroundColor: '#fff', borderRadius: 12, marginBottom: 14, elevation: 2 },
+  title: { fontSize: 18, fontWeight: '600' },
+  count: { marginTop: 6, color: '#555' }
 });
