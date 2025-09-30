@@ -1,0 +1,88 @@
+
+Defensive Publication / Prior-Art Disclosure
+
+Working Title: 	Patient Navigator— Support for each step in the patient journey
+Author: 		Andrew Varyu*
+Date: 			September 20, 2025
+
+
+1. Vision & Differentiator
+A patient-centric healthcare navigation app designed to:
+* Use the patient journey itself as the organizing interface.
+
+* Provide clarity, transparency, and emotional support across all stages of care.
+
+* Integrate AI for real-time Q&A, billing interpretation, reminders, and visit prep.
+
+* Layer onto multiple EHRs (Epic, Cerner, etc.) rather than being locked to one.
+
+* Include a contextual Wiki to explain healthcare concepts, accordion-style, always linked back to the patient’s place in the journey.
+
+
+2. Patient Journey as Core UX Framework
+* Journey structured as scrollable rectangles (steps).
+
+* Each step expands to its own landing page with: overview, quick tips, tools, and wiki links.
+
+* Patient can “zoom in and out” of details, always able to return to the journey.
+
+* Grid created with Journey Steps ? Pain Points ? Potential App Features (partially filled; some areas still blank to be developed).
+
+3. Major Orienting Questions
+These are strategic forks that will determine feasibility and scope:
+1. EHR Integration / MyChart Access
+o Can patients link their MyChart account? Likely difficult — Epic rarely offers API access without corporate agreements.
+o Backup: Allow patients to upload/download MyChart visit summaries, or forward emailed appointment reminders to a unique app address, or screenshot/upload appointment details. App parses and integrates automatically.
+
+2. Appointment & Visit Integration Without API
+o Email forwarding ? Parsing appointment details.
+o Screenshot upload ? OCR parsing.
+o Manual entry as fallback.
+
+3. Insurance & Coverage Guidance
+o Intake: Upload insurance card/photo.
+o AI parses payer/plan, looks up network and cost coverage where possible.
+o Guidance: steer toward in-network providers, flag likely out-of-pocket risks.
+
+4. Medical Liability
+o AI symptom/medical info is advisory, never diagnostic.
+o Content sourcing: clearly labeled (Mayo, Healthline, PubMed, etc.).
+o Disclaimers: “For educational purposes only, not a substitute for medical advice.”
+o Backups: curated plain-language educational summaries.
+
+5. Business Model
+o Free baseline: core journey tools, wiki access, reminders, symptom search.
+o Paid one-time unlock / subscription: storage of doctor conversation history, expanded data storage, advanced billing/EOB tools, long-term health record organization.
+
+6. Data & Sources
+o Free sources: PubMed abstracts, CDC, NIH, Mayo, Healthline, CMS (billing codes).
+o API-required: EHR access (Epic/Cerner, usually not available without enterprise deal).
+o Commercial partnership required: insurance plan lookup, claims databases.
+o Backup Plan: If APIs not available, provide manual input + educational lookups so app retains value.
+
+4. Defensible IP Elements
+* The journey-based UI framework (patients navigating through healthcare by scrolling through the actual patient journey).
+
+* The Wiki-overlay model with accordion context + “return to journey” flow.
+
+* Integration methods that don’t rely on corporate partnerships (email forwarding, screenshot parsing, document/photo uploads).
+
+* Billing/EOB comparison with AI interpretation and patient-task reminders
+
+Patient Navigation App — IP & Overview Document
+Defensive Publication / Prior-Art Disclosure  
+
+
+
+
+
+- 2 -
+
+
+Patient Navigation App — IP & Overview Document
+
+- 1 -
+© Andrew Varyu, Sept 20, 2025
+
+
+
