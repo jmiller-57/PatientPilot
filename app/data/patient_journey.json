@@ -1,0 +1,976 @@
+{
+  "stages": [
+    {
+      "id": "awareness",
+      "title": "Awareness",
+      "description": "Recognizing symptoms and starting your healthcare journey",
+      "order": 1,
+      "icon": "🔍",
+      "substages": [
+        {
+          "id": "awareness-symptom",
+          "title": "Symptom/Health Need",
+          "description": "When you first notice something is wrong",
+          "painPoints": [
+            "Fear about what symptoms might mean",
+            "Discomfort with current condition"
+          ],
+          "tips": [
+            {
+              "id": "tip-awareness-001",
+              "title": "Document your symptoms",
+              "body": "Keep a detailed log of when symptoms occur, their severity, and what makes them better or worse. This will help your doctor diagnose you more accurately.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-awareness-002",
+              "title": "Don't panic",
+              "body": "Many symptoms have benign causes. Stay calm and seek professional medical advice rather than jumping to conclusions.",
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "id": "awareness-online",
+          "title": "Online Diagnosis/Dr. Google",
+          "description": "Researching symptoms online",
+          "painPoints": [
+            "Information looks scary and overwhelming",
+            "Don't know where to start for reliable answers"
+          ],
+          "tips": [
+            {
+              "id": "tip-awareness-003",
+              "title": "Use trusted medical sources",
+              "body": "Stick to reputable sites like Mayo Clinic, Cleveland Clinic, or WebMD. Avoid forums where non-professionals share anecdotes.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-awareness-004",
+              "title": "Note questions for your doctor",
+              "body": "As you research, write down specific questions to ask a healthcare professional rather than self-diagnosing.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "awareness-facility",
+          "title": "Type of Facility/Specialist",
+          "description": "Determining what kind of care you need",
+          "painPoints": [
+            "What type of doctor do I need?",
+            "What kind of facility/care should I go for?",
+            "Is it urgent?"
+          ],
+          "tips": [
+            {
+              "id": "tip-awareness-005",
+              "title": "Know your care options",
+              "body": "Primary Care for general issues, Urgent Care for non-life-threatening urgent issues, ER for emergencies, Specialists for specific conditions.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-awareness-006",
+              "title": "Call your primary care first",
+              "body": "Your PCP can guide you on the right type of specialist or facility. They may also provide a referral if needed.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "awareness-location",
+          "title": "Locations: What is Near Me",
+          "description": "Finding convenient care locations",
+          "painPoints": [
+            "Can I get the care I need at this location?",
+            "How far do I need to travel?"
+          ],
+          "tips": [
+            {
+              "id": "tip-awareness-007",
+              "title": "Check your insurance's provider directory",
+              "body": "Use your insurance website's 'Find a Doctor' tool to see in-network providers near you with their locations and services offered.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-awareness-008",
+              "title": "Verify services before traveling",
+              "body": "Call ahead to confirm the location offers the specific services you need before making a long trip.",
+              "priority": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consideration",
+      "title": "Consideration",
+      "description": "Choosing the right healthcare provider",
+      "order": 2,
+      "icon": "🤔",
+      "substages": [
+        {
+          "id": "consideration-referrals",
+          "title": "Word of Mouth/Referrals",
+          "description": "Getting recommendations from others",
+          "painPoints": [
+            "The popular/best doctors aren't taking new patients"
+          ],
+          "tips": [
+            {
+              "id": "tip-consideration-001",
+              "title": "Ask to be added to waitlists",
+              "body": "If your preferred doctor isn't accepting new patients, ask to be added to their waitlist. Spots often open up.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-consideration-002",
+              "title": "Ask for multiple recommendations",
+              "body": "Get names of 3-5 doctors from trusted sources so you have backup options if your first choice isn't available.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "consideration-reviews",
+          "title": "Website/Online Reviews",
+          "description": "Researching provider ratings and feedback",
+          "painPoints": [
+            "Can I trust these ratings?"
+          ],
+          "tips": [
+            {
+              "id": "tip-consideration-003",
+              "title": "Look for patterns in reviews",
+              "body": "Don't focus on single reviews. Look for consistent themes across many reviews about communication style, wait times, and bedside manner.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-consideration-004",
+              "title": "Check multiple review sources",
+              "body": "Cross-reference reviews on Healthgrades, Vitals, Google, and your insurance provider's site for a fuller picture.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "consideration-search",
+          "title": "Provider Search",
+          "description": "Finding doctors with the right expertise",
+          "painPoints": [
+            "Does this doctor have expertise I need?",
+            "Will I be in good hands?",
+            "Will I like the doctor once I meet them?",
+            "What other doctors will I be billed for?"
+          ],
+          "tips": [
+            {
+              "id": "tip-consideration-005",
+              "title": "Check credentials and specializations",
+              "body": "Look for board certification, years of experience, and any sub-specialties that match your condition.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-consideration-006",
+              "title": "Schedule a consultation if possible",
+              "body": "Some practices offer brief meet-and-greet appointments to see if you're comfortable with the doctor before committing to treatment.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-consideration-007",
+              "title": "Ask about the care team",
+              "body": "Find out who else you might see (nurse practitioners, physician assistants, residents) and how billing works for each.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "consideration-insurance",
+          "title": "Insurance Coverage",
+          "description": "Verifying your insurance is accepted",
+          "painPoints": [
+            "My plan isn't listed",
+            "Listings are out-of-date",
+            "What do I ask my insurance?"
+          ],
+          "tips": [
+            {
+              "id": "tip-consideration-008",
+              "title": "Call both the provider AND your insurance",
+              "body": "Verify coverage from both sides. Ask the provider's office if they accept your specific plan, and call your insurance to confirm the provider is in-network.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-consideration-009",
+              "title": "Get confirmation in writing",
+              "body": "Ask for written confirmation of coverage and keep it with your records in case of billing disputes later.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-consideration-010",
+              "title": "Questions to ask your insurance",
+              "body": "Ask: Is this provider in-network? What's my copay/coinsurance? Do I need a referral? What's my deductible status?",
+              "priority": "high"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "description": "Scheduling and preparing for your appointment",
+      "order": 3,
+      "icon": "📅",
+      "substages": [
+        {
+          "id": "access-schedule",
+          "title": "Self-Schedule (Online)",
+          "description": "Booking appointments through online portals",
+          "painPoints": [
+            "Why don't some doctors schedule online?",
+            "How long will my wait be with this doctor?"
+          ],
+          "tips": [
+            {
+              "id": "tip-access-001",
+              "title": "Call if online booking is limited",
+              "body": "Some doctors prefer to discuss symptoms before scheduling. If online options are limited, call the office for more availability.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-002",
+              "title": "Ask about typical wait times",
+              "body": "When scheduling, ask both how far out appointments are booked AND how long the wait is once you arrive for your appointment.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "access-callcenter",
+          "title": "Call Center",
+          "description": "Scheduling by phone",
+          "painPoints": [
+            "Long wait times on phone",
+            "Not the doctor I wanted",
+            "Is there a waitlist?"
+          ],
+          "tips": [
+            {
+              "id": "tip-access-003",
+              "title": "Call at optimal times",
+              "body": "Call right when the office opens or during lunch hours (12-1pm) when call volumes are typically lower.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-004",
+              "title": "Be specific about your doctor preference",
+              "body": "Clearly state which doctor you want to see and why. Ask about wait times for each available provider if your first choice isn't available soon.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-005",
+              "title": "Always ask about waitlists",
+              "body": "If your preferred time/doctor isn't available, ask to be put on a cancellation list and ensure they have your best contact number.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "access-pricing",
+          "title": "Pricing Transparency/Estimates",
+          "description": "Understanding costs before your visit",
+          "painPoints": [
+            "What CPT code should I look up?",
+            "Insurance can't tell me my out-of-pocket cost"
+          ],
+          "tips": [
+            {
+              "id": "tip-access-006",
+              "title": "Ask the office for procedure codes",
+              "body": "When scheduling, ask what CPT codes will likely be used for your visit so you can get accurate pricing estimates.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-access-007",
+              "title": "Request a cost estimate",
+              "body": "Many providers are now required to provide good-faith estimates. Ask the billing department for a written estimate before your appointment.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-access-008",
+              "title": "Understand your insurance terms",
+              "body": "Know your deductible, copay, coinsurance, and out-of-pocket max. This helps you estimate costs even without exact amounts.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "access-prior-auth",
+          "title": "Prior Authorizations",
+          "description": "Getting insurance approval for procedures",
+          "painPoints": [
+            "When is a prior authorization needed?",
+            "Will this delay anything? What if denied?",
+            "Should I do anything?"
+          ],
+          "tips": [
+            {
+              "id": "tip-access-009",
+              "title": "Ask who handles prior auth",
+              "body": "Clarify whether the doctor's office or you are responsible for submitting prior authorization. Most offices handle this, but confirm.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-access-010",
+              "title": "Request rush processing if urgent",
+              "body": "If your procedure is time-sensitive, ask your doctor to mark the prior auth as urgent and provide supporting documentation.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-011",
+              "title": "Have a backup plan",
+              "body": "Ask your doctor about alternatives if the prior auth is denied, and understand your appeal rights.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "access-reminders",
+          "title": "Reminders/Advance Paperwork",
+          "description": "Pre-visit preparation and forms",
+          "painPoints": [
+            "Questions will probably be asked again",
+            "Directions/parking unclear"
+          ],
+          "tips": [
+            {
+              "id": "tip-access-012",
+              "title": "Complete forms in advance",
+              "body": "Even if you'll be asked again, complete advance paperwork thoroughly. It becomes part of your medical record and saves time at check-in.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-013",
+              "title": "Call for specific directions",
+              "body": "Don't rely solely on GPS. Call the office for specific parking instructions, building entrance details, and where to check in.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-access-014",
+              "title": "Set multiple reminders",
+              "body": "Set reminders for 1 week before (to prepare), 1 day before (to confirm), and 2 hours before (to leave on time).",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "access-mychart",
+          "title": "MyChart Signup",
+          "description": "Creating your patient portal account",
+          "painPoints": [
+            "Do I already have an account?",
+            "Do I need a new MyChart for each doctor?",
+            "Current process confusing - code from front desk? Credit check?"
+          ],
+          "tips": [
+            {
+              "id": "tip-access-015",
+              "title": "Check if you already have an account",
+              "body": "Try the 'Forgot Password' feature with your email or phone number to see if you already have an account before creating a new one.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-016",
+              "title": "Understand MyChart systems",
+              "body": "Different health systems use different MyChart instances. You may need separate accounts for different hospital networks.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-access-017",
+              "title": "Activate your account early",
+              "body": "Sign up for your patient portal as soon as possible after scheduling. You'll need it for forms, results, and communication.",
+              "priority": "high"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "care-delivery",
+      "title": "Care Delivery",
+      "description": "Your appointment and treatment experience",
+      "order": 4,
+      "icon": "🏥",
+      "substages": [
+        {
+          "id": "care-preparing",
+          "title": "Preparing for Your Appointment",
+          "description": "Getting ready before you go",
+          "painPoints": [
+            "What do I need to bring?",
+            "What if I don't remember questions for the doctor?",
+            "Will doctor have all my records from other doctors?",
+            "How will I get there? Can I drive myself?",
+            "Will I need to mask/other onsite regulations?",
+            "Can I/should I bring a friend?",
+            "What if I need a translator?"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-001",
+              "title": "Create a preparation checklist",
+              "body": "Bring: Insurance card, photo ID, medication list, symptom log, list of questions, records from other doctors, and a notebook for notes.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-002",
+              "title": "Write down your questions",
+              "body": "List your top 3-5 questions in priority order. Start with the most important in case time runs short.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-003",
+              "title": "Request records in advance",
+              "body": "Contact your other doctors 1-2 weeks before your appointment to have records sent directly to your new provider.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-004",
+              "title": "Arrange transportation",
+              "body": "If you might receive sedation, dilated eyes, or affecting treatment, arrange for a driver beforehand. Many offices won't proceed without one.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-005",
+              "title": "Check current facility policies",
+              "body": "Call ahead to ask about masking requirements, visitor policies, and any other COVID-related or facility-specific rules.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-006",
+              "title": "Bring a support person",
+              "body": "A friend or family member can help remember instructions, ask questions you forgot, and provide emotional support. Check visitor policies first.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-care-007",
+              "title": "Request interpreter services",
+              "body": "Call at least 48-72 hours before your appointment to arrange for a professional medical interpreter if needed. This is often a free service.",
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "id": "care-traveling",
+          "title": "Traveling to Appointment",
+          "description": "Getting to your appointment on time",
+          "painPoints": [
+            "Which campus was this at?",
+            "Where do I park?",
+            "Which building do I go in?",
+            "If I'm running late, who do I call?",
+            "How late can I be before they cancel?"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-008",
+              "title": "Verify location details",
+              "body": "Confirm the exact address, building name, and floor the day before. Large medical centers often have multiple campuses.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-009",
+              "title": "Plan to arrive 15-20 minutes early",
+              "body": "This gives you time to park, find the right building, check in, and complete any last-minute paperwork without stress.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-010",
+              "title": "Save the office number in your phone",
+              "body": "If you're running late, call as soon as you know. Most offices can accommodate 10-15 minute delays if you communicate.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-011",
+              "title": "Ask about late arrival policies",
+              "body": "When scheduling, ask how late you can be before they cancel. Policies vary from 10-30 minutes typically.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "care-checkin",
+          "title": "Check-in/Registration",
+          "description": "Arriving and completing registration",
+          "painPoints": [
+            "Paperwork has same questions as online",
+            "Electronic signature but no text/copy"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-012",
+              "title": "Request copies of all forms",
+              "body": "Ask for copies or photos of everything you sign. These are your rights as a patient, and you may need them for records or insurance.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-013",
+              "title": "Review forms carefully",
+              "body": "Even if questions seem repetitive, read carefully. Sometimes forms ask slightly different questions or update previous information.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-care-014",
+              "title": "Ask about electronic access",
+              "body": "Ask if forms you signed electronically will be available in your patient portal for future reference.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "care-waiting",
+          "title": "Wait & Rooming",
+          "description": "Waiting room and being taken back",
+          "painPoints": [
+            "Long waiting times",
+            "Being around other sick people",
+            "Asked name/DOB/form questions again",
+            "Wasn't given time to finish the whole form",
+            "Weight/height/BP - heavier than home scale with clothes, taking shoes off inconvenient, nowhere to put stuff in pockets"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-015",
+              "title": "Bring something to do",
+              "body": "Pack a book, download entertainment, or bring work. Wait times can vary, so be prepared to wait comfortably.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-care-016",
+              "title": "Practice good hygiene",
+              "body": "Wash hands or use sanitizer after checking in. Avoid touching your face. Consider wearing a mask in crowded waiting areas.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-017",
+              "title": "Understand verification is for safety",
+              "body": "Staff repeatedly verify your name and DOB to ensure they have the right patient and records. This protects you from medical errors.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-care-018",
+              "title": "Ask for more time if needed",
+              "body": "If you need more time to complete forms, let the staff know. Your thorough answers are more important than speed.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-019",
+              "title": "Wear easy-to-remove layers",
+              "body": "Wear slip-on shoes and keep valuables in a bag rather than pockets for easier vitals check. Wear layers you can easily remove if needed.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "care-exam",
+          "title": "Exam Room/Procedure",
+          "description": "Meeting with your healthcare provider",
+          "painPoints": [
+            "Doctor didn't look at form - so why did I do it?",
+            "Is the doctor judging me - for my weight/gender/skin color/questions/anxiety?",
+            "Doctor doesn't seem to understand my symptoms or believe me",
+            "Short appointment time",
+            "Hard to follow everything doctor said",
+            "I forgot to ask some questions"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-020",
+              "title": "Advocate for yourself",
+              "body": "If you feel unheard, say 'I don't feel like my concerns are being addressed' or 'Can we go back to my main symptom?' It's your right to be heard.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-021",
+              "title": "Take notes during the visit",
+              "body": "Write down key points, diagnoses, and instructions as the doctor speaks. Or ask if you can record the conversation on your phone.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-022",
+              "title": "Ask for clarification",
+              "body": "If something is unclear, say 'Can you explain that in simpler terms?' or 'Can you repeat that?' Good doctors want you to understand.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-023",
+              "title": "Prioritize your top concerns",
+              "body": "Start with your most important issue. Say 'My biggest concern today is...' to ensure it gets addressed even if time is short.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-024",
+              "title": "Ask about next steps before leaving",
+              "body": "Before the doctor leaves, ask: What's the diagnosis? What's the treatment plan? When should I follow up? What warning signs should I watch for?",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-025",
+              "title": "Request a different provider if needed",
+              "body": "If you consistently feel judged or dismissed, you have the right to request a different doctor. Your comfort and trust matter.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "care-avs",
+          "title": "After-Visit Summary (AVS) & Instructions",
+          "description": "Understanding your discharge instructions",
+          "painPoints": [
+            "I didn't notice or read what they gave me",
+            "I lost the AVS papers",
+            "I need help with some of the steps",
+            "I did some things but forgot others",
+            "I don't like what my doctor recommended - can I ignore/push back?",
+            "I want a second opinion"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-026",
+              "title": "Review AVS before leaving",
+              "body": "Read through your After-Visit Summary while still at the office. Ask questions about anything unclear before you go.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-027",
+              "title": "Take a photo of all paperwork",
+              "body": "Photograph your AVS and any prescriptions or instructions immediately. This way you have a backup if you lose the paper copy.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-028",
+              "title": "Access AVS in your patient portal",
+              "body": "Most AVS documents are also uploaded to your patient portal within 24 hours. Check there if you've lost your paper copy.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-029",
+              "title": "Create a care task list",
+              "body": "Convert your AVS instructions into a checklist with deadlines. Check off each item as you complete it.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-030",
+              "title": "Discuss concerns about treatment",
+              "body": "If you have doubts about the recommended treatment, message your doctor through the portal or call to discuss. Don't just ignore medical advice.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-031",
+              "title": "Getting a second opinion",
+              "body": "You always have the right to a second opinion, especially for serious diagnoses or major procedures. Tell your doctor - most will support this.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "care-labs",
+          "title": "Labs/Scans",
+          "description": "Getting diagnostic tests done",
+          "painPoints": [
+            "Where do I go?",
+            "What labs will have my orders? Do I need paper?",
+            "Labs are closed/shorter hours",
+            "Online info on lab services not clear",
+            "I forget to get tested/need reminders"
+          ],
+          "tips": [
+            {
+              "id": "tip-care-032",
+              "title": "Get clear lab instructions",
+              "body": "Before leaving your appointment, ask: Which lab location? Do I need an appointment? Any preparation needed (fasting, etc.)? How will I get results?",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-033",
+              "title": "Confirm orders are in the system",
+              "body": "Call the lab before you go to confirm they have your orders. Bring a paper copy of the order just in case.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-034",
+              "title": "Check lab hours and services",
+              "body": "Lab hours often differ from clinic hours. Check hours, location, and whether walk-ins are accepted before you go.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-care-035",
+              "title": "Schedule labs immediately",
+              "body": "Book your lab appointment right away or add a specific date to your calendar. Set phone reminders to follow through.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-care-036",
+              "title": "Prepare properly for tests",
+              "body": "Follow all fasting and preparation instructions carefully. Improper preparation can lead to invalid results and having to repeat tests.",
+              "priority": "high"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing-care",
+      "title": "Ongoing Care",
+      "description": "Follow-up and continuing your health journey",
+      "order": 5,
+      "icon": "🔄",
+      "substages": [
+        {
+          "id": "ongoing-results",
+          "title": "Test Results",
+          "description": "Understanding your lab and scan results",
+          "painPoints": [
+            "How long for results?",
+            "No doctor message with results",
+            "What are the next steps needed?"
+          ],
+          "tips": [
+            {
+              "id": "tip-ongoing-001",
+              "title": "Ask about results timeline",
+              "body": "When tests are ordered, ask when you should expect results and how you'll be notified (portal, phone call, etc.).",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-002",
+              "title": "Don't assume no news is good news",
+              "body": "If you haven't heard about results within the expected timeframe, follow up proactively. Results can sometimes get overlooked.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-003",
+              "title": "Request explanation of results",
+              "body": "If results are posted without doctor comments, message your doctor asking what the results mean and what next steps are needed.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-004",
+              "title": "Keep a results binder",
+              "body": "Print or save PDFs of all test results in chronological order. This helps track trends over time and is useful for new doctors.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "ongoing-billing",
+          "title": "Billing / Explanations of Benefits",
+          "description": "Understanding and managing healthcare costs",
+          "painPoints": [
+            "Shocking cost",
+            "Confusing - what service was this for?",
+            "How do I check if these charges are right?",
+            "'Due now' is too soon",
+            "Surprise charge for a physical I thought was free",
+            "Surprise charge for doctors I don't remember meeting"
+          ],
+          "tips": [
+            {
+              "id": "tip-ongoing-005",
+              "title": "Review EOBs carefully",
+              "body": "Your Explanation of Benefits (EOB) from insurance comes before the bill. Review it to understand what was covered and what you'll owe.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-006",
+              "title": "Match bills to services received",
+              "body": "Compare dates and service codes on bills with your visit records. Look up CPT codes online to understand what each charge represents.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-007",
+              "title": "Question unclear charges immediately",
+              "body": "Call the billing department right away if you see charges that don't make sense. Errors are more common than you'd think.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-008",
+              "title": "Request payment plans",
+              "body": "If you can't pay the full amount, call billing to set up a payment plan. Most offices offer interest-free payment options.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-009",
+              "title": "Understand preventive visit billing",
+              "body": "Preventive visits are free, BUT if you discuss new problems or existing conditions, those can be billed separately. Ask beforehand what's covered.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-010",
+              "title": "Know about facility fees and surprise doctors",
+              "body": "You may be charged for consulting physicians, anesthesiologists, or facility fees you weren't aware of. Ask about all potential charges upfront.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-011",
+              "title": "Apply for financial assistance",
+              "body": "Many hospitals and clinics offer financial assistance programs for those who qualify. Ask the billing department about applications.",
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "id": "ongoing-followup",
+          "title": "Follow-up Scheduling / Specialty Referrals",
+          "description": "Coordinating continued care",
+          "painPoints": [
+            "Referral taking forever - is it lost?",
+            "How do I follow up and check on referral status?",
+            "I forgot to schedule PCP follow-up",
+            "Out-of-network referral - will it be covered? Were med records sent?"
+          ],
+          "tips": [
+            {
+              "id": "tip-ongoing-012",
+              "title": "Schedule follow-ups before leaving",
+              "body": "If your doctor recommends a follow-up visit, schedule it before you leave the office or immediately when you get home.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-013",
+              "title": "Track referral status actively",
+              "body": "Don't wait passively for referrals. Call both your doctor's office and the specialist after 3-5 business days to confirm the referral was sent and received.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-014",
+              "title": "Get referral details in writing",
+              "body": "Ask for the specialist's name, phone number, and what records are being sent. This helps you follow up effectively.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-015",
+              "title": "Verify out-of-network coverage first",
+              "body": "Before seeing an out-of-network specialist, call your insurance to understand coverage. Ask if there are in-network alternatives.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-016",
+              "title": "Confirm record transfer",
+              "body": "Call the specialist's office a few days before your appointment to confirm they received your medical records from your referring doctor.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "ongoing-messaging",
+          "title": "Questions/New Symptoms/MyChart Messaging",
+          "description": "Communicating with your care team between visits",
+          "painPoints": [
+            "How do I see notes my doctor took?",
+            "Follow-up questions not answered as quickly",
+            "How much can I ask my doctor via a message?",
+            "Will I be charged for this message? How much/how will I know?"
+          ],
+          "tips": [
+            {
+              "id": "tip-ongoing-017",
+              "title": "Access your medical records online",
+              "body": "Most states require doctors to share visit notes with patients. Look in your patient portal under 'Visit Notes' or 'Medical Records'.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-018",
+              "title": "Understand message response times",
+              "body": "Most offices respond to portal messages within 2-3 business days. For urgent issues, call instead of messaging.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-019",
+              "title": "Know what's appropriate for messaging",
+              "body": "Good for: follow-up questions, medication refills, test result clarification. NOT for: new urgent symptoms, emergencies, complex issues.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-020",
+              "title": "Ask about message billing policies",
+              "body": "Some practices may bill for extensive message consultations. Ask your office about their policy for patient portal messages.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-021",
+              "title": "Be clear and specific in messages",
+              "body": "Include relevant details, dates, and specific questions. Clear messages get better, faster responses.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "ongoing-preventive",
+          "title": "Preventive Reminders (Population Health/Health Equity)",
+          "description": "Staying on top of preventive care",
+          "painPoints": [
+            "What preventive care do I need?",
+            "What extra risk factors do I have?",
+            "How do I know if I'm up to date on vaccinations?",
+            "Is there a new COVID vaccine? How do I know when to get another?",
+            "Do I need a physical if I just saw my doctor?",
+            "What can I ask/get from an annual physical/wellness visit?"
+          ],
+          "tips": [
+            {
+              "id": "tip-ongoing-022",
+              "title": "Review preventive care guidelines",
+              "body": "Check CDC and USPSTF guidelines for recommended screenings based on your age, gender, and risk factors. Discuss with your doctor.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-023",
+              "title": "Know your personal risk factors",
+              "body": "Understand your family history, lifestyle factors, and any chronic conditions. These affect what screenings and preventive care you need.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-024",
+              "title": "Keep a vaccination record",
+              "body": "Maintain a personal record of all vaccinations with dates. Your patient portal usually has this info, but keep your own copy too.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-ongoing-025",
+              "title": "Stay informed about vaccine updates",
+              "body": "Sign up for CDC email updates or follow their social media for current vaccine recommendations, especially for flu and COVID-19.",
+              "priority": "low"
+            },
+            {
+              "id": "tip-ongoing-026",
+              "title": "Annual wellness visits vs sick visits",
+              "body": "Annual physicals focus on prevention and screening. Even if you recently saw your doctor for illness, you should still get your annual wellness visit.",
+              "priority": "medium"
+            },
+            {
+              "id": "tip-ongoing-027",
+              "title": "Maximize your wellness visit",
+              "body": "Use your annual physical to discuss: screening tests needed, medication reviews, lifestyle changes, family history updates, and any health concerns.",
+              "priority": "high"
+            },
+            {
+              "id": "tip-ongoing-028",
+              "title": "Set up annual reminders",
+              "body": "Add recurring calendar reminders for annual physicals, dental cleanings, eye exams, and other regular preventive care.",
+              "priority": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-10-12",
+    "source": "Patient Journey & Pain Points by Andrew Varyu",
+    "totalStages": 5,
+    "totalSubstages": 25
+  }
+}
