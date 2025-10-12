@@ -1,47 +1,83 @@
-<!--
-ROUND-TRIP FORMAT: DO NOT CHANGE HEADERS/KEYS
-- Stage header:  # Stage: <title> (id: <id>, order: <n>, icon: <emoji>)
-- Stage description: > <one line description>
-- Substage header: ## Substage: <title> (id: <id>)
-- Substage description: _Description_: <one line description>
-- Pain points list: ### Pain Points  + dash list
-- Tips: ### Tips then one or more tip blocks
-- Tip block: #### [<priority>] <title> (id: <id>)
-  Body: follows on the next paragraph lines until the next #### or ###
+# Awareness  
+Recognizing symptoms and starting your healthcare journey  
 
-Metadata (end of file):
---- 
-version: <string>
-lastUpdated: <ISO date>
-source: <string>
-totals:
-  stages: <int>
-  substages: <int>
--->
+## Symptom/Health Need  
+When you first notice something is wrong  
 
-# Stage: Awareness (id: awareness, order: 1, icon: 🔍)
-> Recognizing symptoms and starting your healthcare journey
+**Pain Points**  
+- Fear about what symptoms might mean  
+- Discomfort with current condition  
 
-## Substage: Symptom/Health Need (id: awareness-symptom)
-_Description_: When you first notice something is wrong
+### Tip: Document your symptoms  
+Keep a detailed log of when symptoms occur, their severity, and what makes them better or worse. This will help your doctor diagnose you more accurately.  
+**Priority:** High  
 
-### Pain Points
-- Fear about what symptoms might mean
-- Discomfort with current condition
-
-### Tips
-#### [high] Document your symptoms (id: tip-awareness-001)
-Keep a detailed log of when symptoms occur, their severity, and what makes them better or worse. This will help your doctor diagnose you more accurately.
-
-#### [high] Don't panic (id: tip-awareness-002)
-Many symptoms have benign causes. Stay calm and seek professional medical advice rather than jumping to conclusions.
-
-<!-- …continue all substages/tips in the same pattern … -->
+### Tip: Don't panic  
+Many symptoms have benign causes. Stay calm and seek professional medical advice rather than jumping to conclusions.  
+**Priority:** High  
 
 ---
-version: 1.0
-lastUpdated: 2025-10-12
-source: Patient Journey & Pain Points by Andrew Varyu
-totals:
-  stages: 5
-  substages: 25
+
+## Online Diagnosis/Dr. Google  
+Researching symptoms online  
+
+**Pain Points**  
+- Information looks scary and overwhelming  
+- Don't know where to start for reliable answers  
+
+### Tip: Use trusted medical sources  
+Stick to reputable sites like Mayo Clinic, Cleveland Clinic, or WebMD. Avoid forums where non-professionals share anecdotes.  
+**Priority:** High  
+
+### Tip: Note questions for your doctor  
+As you research, write down specific questions to ask a healthcare professional rather than self-diagnosing.  
+**Priority:** Medium  
+
+---
+
+## Type of Facility/Specialist  
+Determining what kind of care you need  
+
+**Pain Points**  
+- What type of doctor do I need?  
+- What kind of facility/care should I go for?  
+- Is it urgent?  
+
+### Tip: Know your care options  
+Primary Care for general issues, Urgent Care for non-life-threatening urgent issues, ER for emergencies, Specialists for specific conditions.  
+**Priority:** High  
+
+### Tip: Call your primary care first  
+Your PCP can guide you on the right type of specialist or facility. They may also provide a referral if needed.  
+**Priority:** Medium  
+
+---
+
+## Locations: What is Near Me  
+Finding convenient care locations  
+
+**Pain Points**  
+- Can I get the care I need at this location?  
+- How far do I need to travel?  
+
+### Tip: Check your insurance's provider directory  
+Use your insurance website's "Find a Doctor" tool to see in-network providers near you with their locations and services offered.  
+**Priority:** High  
+
+### Tip: Verify services before traveling  
+Call ahead to confirm the location offers the specific services you need before making a long trip.  
+**Priority:** Medium  
+
+---
+
+# Consideration  
+Choosing the right healthcare provider  
+
+## Word of Mouth/Referrals  
+Getting recommendations from others  
+
+**Pain Points**  
+- The popular/best doctors aren't taking new patients  
+
+### Tip: Ask to be added to waitlists  
+If your pr
