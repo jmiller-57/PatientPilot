@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import type { Tip } from "../app/types/journey";
+import type { Tip } from "../types/journey";
 
 interface Props {
   tip: Tip;

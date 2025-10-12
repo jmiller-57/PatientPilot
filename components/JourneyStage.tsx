@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import {
-  View,
-  Text,
-  ScrollView,
-  TouchableOpacity,
-  StyleSheet,
   LayoutAnimation,
   Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
   UIManager,
+  View
 } from 'react-native';
-import { Stage, Substage, Tip } from '../app/types/journey';
+import { Stage, Tip } from '../types/journey';
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {

@@ -1,8 +1,8 @@
 import React from 'react';
-import { ScrollView, StyleSheet, View, Text } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { JourneyStage } from '../../components/JourneyStage';
+import { PatientJourneyData } from '../../types/journey';
 import patientJourneyData from '../data/patient_journey.json';
-import { PatientJourneyData } from '../types/journey';
 
 export default function PatientJourneyScreen() {
   const data = patientJourneyData as PatientJourneyData;
