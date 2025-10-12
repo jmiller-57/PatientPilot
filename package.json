@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "content:json-to-md": "node scripts/json_to_md.cjs app/data/patient_journey.json content/source/patient_journey.md",
+    "content:md-to-json": "node scripts/md_to_json.cjs content/source/patient_journey.md app/data/patient_journey.json"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
@@ -35,3 +37,5 @@
   },
   "private": true
 }
+
+
