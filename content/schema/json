@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Patient Journey",
+  "type": "object",
+  "required": ["stages", "metadata"],
+  "properties": {
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "order", "icon", "substages"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "order": { "type": "number" },
+          "icon": { "type": "string" },
+          "substages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "title", "description", "painPoints", "tips"],
+              "properties": {
+                "id": { "type": "string" },
+                "title": { "type": "string" },
+                "description": { "type": "string" },
+                "painPoints": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "tips": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "title", "body", "priority"],
+                    "properties": {
+                      "id": { "type": "string" },
+                      "title": { "type": "string" },
+                      "body": { "type": "string" },
+                      "priority": { "enum": ["high", "medium", "low"] }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["version", "lastUpdated", "source", "totalStages", "totalSubstages"],
+      "properties": {
+        "version": { "type": "string" },
+        "lastUpdated": { "type": "string" },
+        "source": { "type": "string" },
+        "totalStages": { "type": "number" },
+        "totalSubstages": { "type": "number" }
+      }
+    }
+  }
+}

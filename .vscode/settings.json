@@ -2,6 +2,20 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
-  }
+    "source.sortMembers": "explicit"},
+
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": false,
+
+  "json.schemas": [
+    {
+      "fileMatch": ["app/data/patient_journey.json"],
+      "url": "./content/schema.json"
+    }
+  ]
 }
