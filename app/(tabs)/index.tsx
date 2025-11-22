@@ -4,11 +4,11 @@ import PatientJourneyScreen from '../screens/PatientJourneyScreen';
 
 export default function HomeScreen() {
   const [showJourney, setShowJourney] = React.useState(false);
-  
+
   if (showJourney) {
     return <PatientJourneyScreen />;
   }
-  
+
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <View style={styles.hero}>
@@ -18,14 +18,14 @@ export default function HomeScreen() {
         </Text>
       </View>
 
-      <Pressable 
-        style={styles.journeyCard} 
+      <Pressable
+        style={styles.journeyCard}
         onPress={() => setShowJourney(true)}
         accessibilityRole='button'
       >
         <Text style={styles.journeyIcon}>🏥</Text>
         <View style={styles.journeyTextContainer}>
-          <Text style={styles.journeyTitle}>View Patient Journey</Text>
+          <Text style={styles.journeyTitle}>Your Patient Journey</Text>
           <Text style={styles.journeySubtitle}>
             Navigate your healthcare experience with confidence
           </Text>
@@ -34,27 +34,27 @@ export default function HomeScreen() {
       </Pressable>
 
       <View style={styles.infoSection}>
-        <Text style={styles.infoTitle}>What's Inside:</Text>
+        <Text style={styles.infoTitle}>Advice for:</Text>
         <View style={styles.featureList}>
           <View style={styles.featureItem}>
             <Text style={styles.featureIcon}>🔍</Text>
-            <Text style={styles.featureText}>Awareness - Recognizing symptoms</Text>
+            <Text style={styles.featureText}>First Symptoms - How to search</Text>
           </View>
           <View style={styles.featureItem}>
             <Text style={styles.featureIcon}>🤔</Text>
-            <Text style={styles.featureText}>Consideration - Choosing providers</Text>
+            <Text style={styles.featureText}>Doctors - How to choose</Text>
           </View>
           <View style={styles.featureItem}>
             <Text style={styles.featureIcon}>📅</Text>
-            <Text style={styles.featureText}>Access - Scheduling appointments</Text>
+            <Text style={styles.featureText}>Appointments - How to get in</Text>
           </View>
           <View style={styles.featureItem}>
             <Text style={styles.featureIcon}>🏥</Text>
-            <Text style={styles.featureText}>Care Delivery - Your appointment</Text>
+            <Text style={styles.featureText}>Exam Room - Seeing the Doc</Text>
           </View>
           <View style={styles.featureItem}>
             <Text style={styles.featureIcon}>🔄</Text>
-            <Text style={styles.featureText}>Ongoing Care - Follow-up & billing</Text>
+            <Text style={styles.featureText}>After Care - Billing & Follow-ups</Text>
           </View>
         </View>
       </View>

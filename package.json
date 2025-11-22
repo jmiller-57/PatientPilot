@@ -6,14 +6,12 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "content:json-to-md": "node scripts/json_to_md.cjs app/data/patient_journey.json content/source/patient_journey.md",
-    "content:md-to-json": "node scripts/md_to_json.cjs content/source/patient_journey.md app/data/patient_journey.json"
+    "web": "expo start --web"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
     "@react-navigation/native": "^7.1.8",
-    "expo": "54.0.13",
+    "expo": "^54.0.13",
     "expo-constants": "~18.0.9",
     "expo-font": "~14.0.8",
     "expo-linking": "~8.0.8",
@@ -37,5 +35,3 @@
   },
   "private": true
 }
-
-
